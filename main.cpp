@@ -31,7 +31,7 @@ struct TcpHdr {
     uint16_t dest;
     uint32_t seq;
     uint32_t ack_seq;
-    uint8_t  doff_res; // data offset (4 bits) + reserved (4 bits)
+    uint8_t  doff_res; 
     uint8_t  flags;
     uint16_t window;
     uint16_t check;
